@@ -183,7 +183,13 @@ main #section2,
 
 .tituloProject {
     color: #9D9A9A;
-    font-size: 5vh;
+    font-size: 4vh;
+}
+
+.habilidades {
+    color: #9D9A9A;
+    font-size: 3vh;
+    margin-top: 2vh;
 }
 
 #project {
@@ -312,6 +318,7 @@ main #section2,
     color: #eee;
     overflow: hidden;
     position: relative;
+    margin-top: 2vh;
 }
 
 .marquee:before,
