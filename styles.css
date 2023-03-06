@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
-    scroll-behavior: smooth !important;
 }
 
 main {
@@ -519,6 +518,16 @@ header .button button a:visited {
     background-color: #9D9A9A;
     color: #18141E;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    text-decoration: none;
+}
+.resume:active{
+    text-decoration: none;
 }
 
 .telefone {
