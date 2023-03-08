@@ -421,7 +421,7 @@ form {
     border-radius: 15px;
 }
 
-form div button {
+form section button {
     background-color: #9D9A9A;
     color: #18141E;
     width: 50px 70px;
@@ -429,7 +429,7 @@ form div button {
     margin: 0.3em 0.6em;
 }
 
-form div {
+form section {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -478,21 +478,21 @@ textarea {
 
 /* ------------------------------------------------------------------------------------- */
 
-header {
+nav {
     width: 97%;
     position: absolute;
     display: flex;
     margin: 1vh 1vw 0 1vw;
 }
 
-header .button {
+nav .button {
     width: 50%;
     display: flex;
     justify-content: flex-end;
     border-radius: 10px;
 }
 
-header .button button {
+nav .button button {
     width: clamp(16vh, 16vh, 16vh);
     height: 6vh;
     font-size: 1.5vh;
@@ -502,11 +502,11 @@ header .button button {
     border-radius: 10px;
 }
 
-header .button button a {
+nav .button button a {
     text-decoration: none;
 }
 
-header .button button a:visited {
+nav .button button a:visited {
     color: #18141E;
 }
 
@@ -526,7 +526,8 @@ header .button button a:visited {
 .resume {
     text-decoration: none;
 }
-.resume:active{
+
+.resume:active {
     text-decoration: none;
 }
 
@@ -554,10 +555,11 @@ footer {
 footer h2 {
     color: #9D9A9A;
     font-size: 1em;
+    line-height: 2;
 }
 
-@media (max-width: 1000px) {
-    header .button {
+@media (max-width: 980px) {
+    nav .button {
         display: none;
     }
 
@@ -685,6 +687,10 @@ footer h2 {
         width: 100vw;
     }
 
+    #project{
+        width: 100%;
+    }
+
     #project .card {
         position: relative;
         cursor: pointer;
@@ -702,70 +708,13 @@ footer h2 {
 
     footer h2 {
         font-size: 0.8em;
+        line-height: 2;
     }
 }
 
-@media (min-width: 1001px) and (max-width: 1316px) {
-    #section2 {
-        height: auto;
+@media (max-width: 980px) {
+    footer h2 {
+        font-size: 0.6em;
+        line-height: 2;
     }
-
-    .box2 {
-        width: 90%;
-        height: auto;
-    }
-
-    .top {
-        flex-direction: column;
-        height: auto;
-        margin-top: 0vh;
-    }
-
-    .left,
-    .right {
-        width: 100%;
-        height: auto;
-        text-align: center;
-        margin-bottom: 5vh;
-    }
-
-    .right {
-        height: auto;
-    }
-
-    .ocupacao {
-        font-size: 2vh;
-        line-height: 3vh;
-        margin-top: 5vh;
-    }
-
-    .left h3,
-    .right h3 {
-        font-size: 2vh;
-        line-height: 4vh;
-        text-align: start;
-    }
-
-    .perfil {
-        width: 40%;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 5vh;
-    }
-
-    .perfil img {
-        width: 70%;
-        height: auto;
-        padding: 5px;
-    }
-
-    .ocupacao {
-        display: none;
-    }
-
-    .left h3 {
-        display: none;
-    }
-
-
 }
