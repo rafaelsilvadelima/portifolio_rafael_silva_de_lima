@@ -8,27 +8,25 @@
   ## UI/UX
   ### Desktop
   Início
-  <img src="assets_readme/start.PNG" alt="Layout">
-  Sobre mim
-  <img src="assets_readme/aboutme.PNG" alt="Layout">
-  Projetos
-  <img src="assets_readme/projeto.PNG" alt="Layout">
-  Projetos com o card aberto
-  <img src="assets_readme/projetoopen.PNG" alt="Layout">
-  footer
-  <img src="assets_readme/footer.PNG" alt="Layout">
+  <img src="assets_readme/screencapture-rafaelsilvadelima-github-io-portifolio.png" alt="Layout">
   
-  Mobile
-  <div>
-  <img src="assets_readme/mobile (1).png" alt="Layout" width="300px">
-  <img src="assets_readme/mobile (2).png" alt="Layout" width="300px">
-  <img src="assets_readme/mobile (3).png" alt="Layout" width="300px">
-  <img src="assets_readme/mobile (5).png" alt="Layout" width="300px">
-  ### Clique na imagem para iniciar o gif :
-  <img src="assets_readme/mobile.gif" alt="Layout" width="300px">
-  </div>
+  ## Mobile
+  <img src="assets_readme/screencapture-rafaelsilvadelima-github-io-portifolio-rafael-silva-de-lima-2023-03-08-22_53_31 (1).png" alt="Layout" width="300px">
   
-  ### Curriculo
-  Ao clicar no botão na barra de navegação superior, é possível acessar uma página que contém um arquivo em formato JPG do meu currículo. No entanto, no futuro, o plano é criar essa página usando código.
-  <img src="assets_readme/Curriculo_Rafael Silva de Lima.jpg" alt="Layout">
+  ### Clique na imagem para iniciar o gif
+  <img src="assets_readme/mobile.gif" alt="Layout">
   
+
+   ## Software, framework e outros usados no processo de desenvolvimento.
+
+ O Layout/UX inicial foi realizado no site [FIGMA](https://www.figma.com/).
+
+ O fluxograma foi feito no site [Diagrams](https://www.diagrams.net/).
+
+ O projeto está sendo desenvolvido no framwork [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML).
+
+ A parte de armazenamento, banco de dados assim como a authenticação de usuário está construida com [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS).
+
+ Linguagem de programação mais utilizada foi [Javascript](https://www.javascript.com/)
+
+ Projeto está em seu processo inicial, então futuramente irei preparar para vocês um "readme" mais detalhado. Desde já, grato!
